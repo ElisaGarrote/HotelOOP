@@ -64,6 +64,24 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="InventoryAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryAdd.Designer.cs">
+      <DependentUpon>InventoryAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryItemInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryItemInsert.Designer.cs">
+      <DependentUpon>InventoryItemInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainInventory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainInventory.Designer.cs">
+      <DependentUpon>MainInventory.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserControl1.cs">
@@ -80,6 +98,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryAdd.resx">
+      <DependentUpon>InventoryAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryItemInsert.resx">
+      <DependentUpon>InventoryItemInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainInventory.resx">
+      <DependentUpon>MainInventory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -112,6 +139,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\RoyalReefMainLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\448689817_1025153312536246_3189161376674832175_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-50 %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

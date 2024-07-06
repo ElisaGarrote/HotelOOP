@@ -32,5 +32,11 @@ namespace Hotel
             AddRoomRec Check = new AddRoomRec();
             Check.Show();
         }
+
+        private void add_roombut_Click(object sender, EventArgs e)
+        {
+            AddRoomRec Check = new AddRoomRec();
+            Check.Show();
+        }
     }
 }

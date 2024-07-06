@@ -36,5 +36,33 @@ namespace Hotel
         {
 
         }
+
+        private void AddRoomRec_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void adminInventory1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void add_inventorybut_Click(object sender, EventArgs e)
+        {
+            InventoryAdd addIn = new InventoryAdd();
+            addIn.FormClosed += new FormClosedEventHandler(InventoryAdd_FormClosed);
+            addIn.Show();
+            this.Hide();
+        }
+
+        private void InventoryAdd_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

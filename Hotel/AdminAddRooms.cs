@@ -16,5 +16,20 @@ namespace Hotel
         {
             InitializeComponent();
         }
+
+        private void emp_namelabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void userControl11_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void add_promobut_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
