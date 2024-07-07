@@ -73,12 +73,12 @@
             this.button2.BackColor = System.Drawing.Color.Yellow;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Yellow;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(631, 296);
+            this.button2.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(631, 298);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(123, 33);
+            this.button2.Size = new System.Drawing.Size(123, 31);
             this.button2.TabIndex = 12;
-            this.button2.Text = "Add record";
+            this.button2.Text = "Add";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 

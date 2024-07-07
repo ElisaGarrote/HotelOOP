@@ -49,7 +49,7 @@ namespace Hotel
 
         private void add_inventorybut_Click(object sender, EventArgs e)
         {
-            InventoryAdd addIn = new InventoryAdd();
+            AddInventoryRec addIn = new AddInventoryRec();
             addIn.FormClosed += new FormClosedEventHandler(InventoryAdd_FormClosed);
             addIn.Show();
             this.Hide();
